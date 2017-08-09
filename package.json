@@ -1,0 +1,22 @@
+{
+  "name": "watering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "mysql": "^2.0.0-alpha8",
+    "restify": "^2.5.1",
+    "node-static": "^0.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/watering-1/r/watering"
+  },
+  "author": "",
+  "license": "ISC"
+}
