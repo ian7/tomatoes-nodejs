@@ -82,7 +82,7 @@ httpServer.get(/^\/.*/, function(req, res, next) {
 });
 
 
-httpServer.listen(8080);
+httpServer.listen(process.env.PORT || 8080);
 
 /*
 
