@@ -64,6 +64,15 @@ httpServer.get('/weather/:attribute', function(req, res) {
     });
 });
 
+httpServer.get('_ah/health', function(req, res, next) {
+        res.writeHead(200, {
+            "Content-Type": "text/plain"
+        });
+
+
+        res.write('it works');
+        res.end();
+});
 
 
 
